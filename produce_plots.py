@@ -52,4 +52,4 @@ file_path = f"www/plots/paper_{algo}_N_{N}_B_{B}{dist_tag}.png"
 if os.path.exists(file_path):
     st.image(file_path, use_container_width=True)
 else:
-    st.error(f"File does not exist: `{file_path}`")
+    st.error("Plot does not exist")
